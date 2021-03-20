@@ -1,63 +1,44 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+	<head>
+		<title>Bipul Raman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-.bgimg {
-  background-image: url('forestbridge.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+				<!-- Header -->
+					<header id="header">
+						<h1>Bipul Raman</h1>
+						<p>Software Developer &nbsp;&bull;&nbsp; Microsoft &nbsp;&bull;&nbsp; India</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/BipulRaman" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/TheBipulRaman" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://blog.bipul.in" class="icon brands fa-dribbble"><span class="label">Bipul's Web</span></a></li> 
+								<li><a href="https://github.com/BipulRaman" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://blog.bipul.in/p/contact.html" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; <a href="https://blog.bipul.in">Bipul Raman</a></span>
+					</footer>
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
-
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
-<body>
-
-<div class="bgimg">
-  <div class="topleft">
-  </div>
-  <div class="middle">
-    <h3>COMING SOON</h3>
-    <h1>Bipul Raman's</h1>
-    <h3>new website !</h3>
-    <hr>
-    <a href="https://blog.bipul.in">Visit old Blog Site meanwhile.</a>
-  </div>
-  <div class="bottomleft">
-    <p>Some text</p>
-  </div>
-</div>
-
-</body>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
